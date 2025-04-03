@@ -1,7 +1,5 @@
 import { Request, Response } from "express";
 import { Document } from "../models/Document";
-import { User } from '../models/User';
-import { IUser } from '../models/User';
 
 export const createDocument = async (req: Request, res: Response): Promise<Response> => {
   try {
